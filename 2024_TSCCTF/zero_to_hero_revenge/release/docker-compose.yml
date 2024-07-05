@@ -1,0 +1,10 @@
+version: '3'
+
+services:
+  zero_to_hero_revenge:
+    build: ./
+    volumes:
+      - ./share:/home/zero_to_hero_revenge:ro
+      - ./xinetd:/etc/xinetd.d/zero_to_hero_revenge:ro
+    ports:
+      - "50004:12377"

@@ -1,0 +1,1 @@
+FLAG = "NCKUCTF{W4k3_uP_F14g}"

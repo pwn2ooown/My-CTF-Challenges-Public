@@ -1,0 +1,10 @@
+version: '3'
+
+services:
+  base64note:
+    build: ./
+    volumes:
+      - ./share:/home/base64note:ro
+      - ./xinetd:/etc/xinetd.d/base64note:ro
+    ports:
+      - "50004:12377"

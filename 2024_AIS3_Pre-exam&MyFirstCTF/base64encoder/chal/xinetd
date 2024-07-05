@@ -1,0 +1,13 @@
+service base64encoder
+{
+    disable = no
+    type = UNLISTED
+    socket_type = stream
+    protocol = tcp
+    server = /home/base64encoder/run.sh
+    user = base64encoder
+    port = 12377
+    flags = REUSE
+    bind = 0.0.0.0
+    wait = no
+}

@@ -1,0 +1,10 @@
+version: '3'
+
+services:
+  babypwn2024-nerf:
+    build: ./
+    volumes:
+      - ./share:/home/chal:ro
+      - ./xinetd:/etc/xinetd.d/chal:ro
+    ports:
+      - "34567:13377"

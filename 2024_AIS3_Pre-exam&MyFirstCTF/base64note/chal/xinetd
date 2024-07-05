@@ -1,0 +1,13 @@
+service base64note
+{
+    disable = no
+    type = UNLISTED
+    socket_type = stream
+    protocol = tcp
+    server = /home/base64note/run.sh
+    user = base64note
+    port = 12377
+    flags = REUSE
+    bind = 0.0.0.0
+    wait = no
+}

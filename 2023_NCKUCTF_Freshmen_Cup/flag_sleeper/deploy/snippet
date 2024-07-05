@@ -1,0 +1,31 @@
+#!/bin/bash
+
+CATEGORY="Misc";
+CHAL="Flag Sleeper";
+OUTPORT=8787;
+INPORT=8787;
+
+if [[ $# == 0 ]]; then
+    echo "========= $CATEGORY : $CHAL ========="
+    echo "Usage:";
+    echo "Build challenge:     ./snippet build";
+    echo "Rebuild challenge:   ./snippet rebuild";
+    echo "Start challenge:     ./snippet start";
+    echo "Stop challenge:      ./snippet stop";
+    exit 0
+fi
+
+CHAL="${CHAL,,}"
+DOCKERNAME="${CATEGORY,,}-${CHAL// /_}"
+
+if [[ $1 == "build" ]]; then
+    docker build -t $DOCKERNAME .;
+elif [[ $1 == "rebuild" ]]; then
+    docker rmi $DOCKERNAME;
+    docker build -t $DOCKERNAME .;
+elif [[ $1 == "start" ]]; then
+    docker run -p $OUTPORT:$INPORT --name $DOCKERNAME -d $DOCKERNAME;
+elif [[ $1 == "stop" ]]; then
+    docker stop $DOCKERNAME;
+    docker rm $DOCKERNAME;
+fi

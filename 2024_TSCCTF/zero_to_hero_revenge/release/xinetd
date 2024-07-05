@@ -1,0 +1,13 @@
+service zero_to_hero_revenge
+{
+    disable = no
+    type = UNLISTED
+    socket_type = stream
+    protocol = tcp
+    server = /home/zero_to_hero_revenge/run.sh
+    user = zero_to_hero_revenge
+    port = 12377
+    flags = REUSE
+    bind = 0.0.0.0
+    wait = no
+}

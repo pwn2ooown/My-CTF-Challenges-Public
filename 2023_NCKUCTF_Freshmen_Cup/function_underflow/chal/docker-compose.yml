@@ -1,0 +1,10 @@
+version: '3'
+
+services:
+  function_underflow:
+    build: ./
+    volumes:
+      - ./share:/home/chal:ro
+      - ./xinetd:/etc/xinetd.d/chal:ro
+    ports:
+      - "15537:15537"

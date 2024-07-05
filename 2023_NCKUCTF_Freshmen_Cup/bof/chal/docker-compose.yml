@@ -1,0 +1,10 @@
+version: '3'
+
+services:
+  bof:
+    build: ./
+    volumes:
+      - ./share:/home/chal:ro
+      - ./xinetd:/etc/xinetd.d/chal:ro
+    ports:
+      - "12377:12377"

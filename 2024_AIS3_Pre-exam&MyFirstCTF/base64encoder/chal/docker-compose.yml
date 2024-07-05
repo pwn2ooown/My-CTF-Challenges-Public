@@ -1,0 +1,10 @@
+version: '3'
+
+services:
+  base64encoder:
+    build: ./
+    volumes:
+      - ./share:/home/base64encoder:ro
+      - ./xinetd:/etc/xinetd.d/base64encoder:ro
+    ports:
+      - "50002:12377"
