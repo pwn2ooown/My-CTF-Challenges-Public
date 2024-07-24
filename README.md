@@ -1,18 +1,25 @@
 # My CTF Challenges
 
-CTF challenges I created and their solutions (most of them).
+CTF challenges I created and their writeups (most of them).
 
 ## 2023
 
 - NCKUCTF Freshmen Cup (成大新生盃)
-  - 8 re/pwn challenges.
+  - 8 re/pwn challenges for totally beginners.
 
 ## 2024
 
 - AIS3 Pre-exam & MyFirstCTF
-  - 2 pwn challenges (Easy & Medium)
+| Challenge                                                    | Category  | Keywords               |
+| ------------------------------------------------------------ | --------- | ---------------------- |
+| base64encoder | Pwn       |    array out-of-bound read, return to win          |
+| base64note  | Pwn  | CVE-2018-6789, use after free, heap off by one, code execution on glibc 2.35|
+
 - TSCCTF
-  - 2 pwn challenges (Medium & Hard)
+| Challenge                                                    | Category  | Keywords               |
+| ------------------------------------------------------------ | --------- | ---------------------- |
+| babypwn2024-nerf | Pwn      | Stack pivoting, return to libc, one gadget             |
+| zero_to_hero_revenge  | Pwn | Glibc 2.35 tcache double free, safe linking bypass, GOT Hijacking |
 
 ## License
 
