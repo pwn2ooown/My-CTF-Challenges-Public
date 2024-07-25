@@ -14,7 +14,7 @@ CTF challenges I created and their writeups (most of them).
 | Challenge                                                    | Category  | Keywords               |
 | ------------------------------------------------------------ | --------- | ---------------------- |
 | base64encoder | Pwn       |    array out-of-bound read, return to win          |
-| base64note  | Pwn  | CVE-2018-6789, use after free, heap off by one, code execution on glibc 2.35|
+| base64note  | Pwn  | CVE-2018-6789, use after free, heap off by one, code execution on glibc 2.35, libc GOT Hijacking |
 
 ### TSCCTF
 
