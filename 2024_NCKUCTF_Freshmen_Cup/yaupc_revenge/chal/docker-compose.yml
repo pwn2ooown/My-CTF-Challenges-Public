@@ -1,0 +1,10 @@
+version: '3'
+
+services:
+  yaupc-revenge:
+    build: ./
+    volumes:
+      - ./share:/home/yaupc-revenge:ro
+      - ./xinetd:/etc/xinetd.d/yaupc-revenge:ro
+    ports:
+      - "29105:48763"

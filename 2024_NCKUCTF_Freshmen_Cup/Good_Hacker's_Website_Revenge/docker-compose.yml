@@ -1,0 +1,23 @@
+version: "3.8"
+services:
+  php-apache:
+    build: .
+    ports:
+      - "29106:80"
+    volumes:
+      # Mount flag directory as read-only
+      - ./flag:/flag:ro
+
+    depends_on:
+      - mysql
+
+  mysql:
+    image: mysql:5.7
+    platform: linux/amd64
+
+    environment:
+      MYSQL_ROOT_PASSWORD: password
+      MYSQL_DATABASE: mydb
+      MYSQL_USER: user
+      MYSQL_PASSWORD: userpassword
+    command: --datadir=/var/lib/mysql

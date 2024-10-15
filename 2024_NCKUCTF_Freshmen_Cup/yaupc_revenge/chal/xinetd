@@ -1,0 +1,13 @@
+service yaupc-revenge
+{
+    disable = no
+    type = UNLISTED
+    socket_type = stream
+    protocol = tcp
+    server = /home/yaupc-revenge/run.sh
+    user = yaupc-revenge
+    port = 48763
+    flags = REUSE
+    bind = 0.0.0.0
+    wait = no
+}

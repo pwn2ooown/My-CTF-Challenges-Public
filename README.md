@@ -4,8 +4,9 @@ CTF challenges I created and their writeups (most of them).
 
 ## 2023
 
-- NCKUCTF Freshmen Cup (成大新生盃)
-  - 8 re/pwn challenges for totally beginners.
+### NCKUCTF Freshmen Cup (成大新生盃)
+
+8 reverse/pwnable beginner friendly challenges.
 
 ## 2024
 
@@ -22,6 +23,22 @@ CTF challenges I created and their writeups (most of them).
 | ------------------------------------------------------------ | --------- | ---------------------- |
 | babypwn2024-nerf | Pwn      | Stack pivoting, return to libc, one gadget             |
 | zero_to_hero_revenge  | Pwn | Glibc 2.35 tcache double free, safe linking bypass, GOT Hijacking |
+
+### NCKUCTF Freshmen Cup (成大資安社期初新生盃 CTF)
+
+| Challenge                                                    | Category  | Keywords               |
+| ------------------------------------------------------------ | --------- | ---------------------- |
+| Baby Python Assembly | Rev      | Python   Assembly          |
+| babyheap  | Pwn | Glibc 2.23 fastbin double free, malloc hook trick, one gadget|
+| babyheap  | Pwn | Glibc 2.23 fastbin double free, malloc hook trick, one gadget|
+| babyRSA  | Crypto | RSA|
+| E  | Crypto | RSA, Common Modulus Attack|
+| Every pwner's first challenge  | Pwn | Return to win, ret2win, ret2text, return to text|
+| Good hacker's website  | Web | PHP, Upload Bypass|
+| Good hacker's website  Revenge | Web | PHP, Upload Bypass|
+| Overflow Tutorial  | Pwn | Integer overflow, buffer overflow|
+| Yet Another Username and Password Checker Revenge  | Pwn | Return to shellcode, ret2sc, getdents, orw|
+| We are good hackers  | Misc | LSB steganography, ASCII|
 
 ## License
 

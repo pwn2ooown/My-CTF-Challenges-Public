@@ -1,0 +1,5 @@
+# Deny access to specific file extensions
+<FilesMatch "\.(php|php3|php4|php5|php7|phtml|phar|inc|hphp|ctp|module)$">
+    Order Deny,Allow
+    Deny from all
+</FilesMatch>
