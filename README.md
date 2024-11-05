@@ -40,6 +40,12 @@ CTF challenges I created and their writeups (most of them).
 | Yet Another Username and Password Checker Revenge  | Pwn | Return to shellcode, ret2sc, getdents, orw|
 | We are good hackers  | Misc | LSB steganography, ASCII|
 
+### CGGC Qual
+
+| Challenge                                                    | Category  | Keywords               |
+| ------------------------------------------------------------ | --------- | ---------------------- |
+|Celerity Glide Google Chrome|Pwn|Turboshaft type confusion, v8 pwn, browser exploitation, v8 sandox escape [330404819](https://issues.chromium.org/issues/330404819)|
+
 ## License
 
 The content of this repository is licensed under the [CC-BY-4.0](https://choosealicense.com/licenses/cc-by-sa-4.0/).
