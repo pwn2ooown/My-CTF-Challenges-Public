@@ -45,6 +45,7 @@ CTF challenges I created and their writeups (most of them).
 | Challenge                                                    | Category  | Keywords               |
 | ------------------------------------------------------------ | --------- | ---------------------- |
 |Celerity Glide Google Chrome|Pwn|Turboshaft type confusion, v8 pwn, browser exploitation, v8 sandox escape [330404819](https://issues.chromium.org/issues/330404819)|
+|Re:Sandbox|Pwn|v8 sandbox escape, browser exploitation, [330404819](https://issues.chromium.org/issues/330404819) patch bypass via issue [344963941](https://issues.chromium.org/issues/344963941)|
 
 ## License
 
