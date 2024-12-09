@@ -16,5 +16,3 @@ You need to chain a v8 bug and a sandbox escape to get code execution.
 4. Sandbox Escape 1 day https://issues.chromium.org/issues/330404819
 
 This is a pretty old v8 version from March 2024 so 0 or 1 day exploits are welcome. (Those are intended for this challenge)
-
-Full exploit will be released soon.
