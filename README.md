@@ -52,6 +52,16 @@ CTF challenges I created and their writeups (most of them).
 | ------------------------------------------------------------ | --------- | ---------------------- |
 |Re:Sandbox|Pwn|v8 sandbox escape, browser exploitation, [330404819](https://issues.chromium.org/issues/330404819) patch bypass via issue [344963941](https://issues.chromium.org/issues/344963941)|
 
+## 2025
+
+### TSCCTF
+
+| Challenge                                                    | Category  | Keywords               |
+| ------------------------------------------------------------ | --------- | ---------------------- |
+| localstack | Pwn      | oob, ret2win, ret2text, bypass all protections             |
+| globalstack  | Pwn | free hook, oob |
+| babyrust  | Pwn | rust pwn, ROP |
+
 ## License
 
 The content of this repository is licensed under the [CC-BY-4.0](https://choosealicense.com/licenses/cc-by-sa-4.0/).
