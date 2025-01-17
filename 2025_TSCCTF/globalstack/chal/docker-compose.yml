@@ -1,0 +1,10 @@
+version: '3'
+
+services:
+  globalstack:
+    build: ./
+    volumes:
+      - ./share:/home/globalstack:ro
+      - ./xinetd:/etc/xinetd.d/globalstack:ro
+    ports:
+      - "11101:48763"

@@ -1,0 +1,10 @@
+version: '3'
+
+services:
+  babyrust:
+    build: ./
+    volumes:
+      - ./share:/home/babyrust:ro
+      - ./xinetd:/etc/xinetd.d/babyrust:ro
+    ports:
+      - "11102:48763"

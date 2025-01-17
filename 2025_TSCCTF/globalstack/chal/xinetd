@@ -1,0 +1,13 @@
+service globalstack
+{
+    disable = no
+    type = UNLISTED
+    socket_type = stream
+    protocol = tcp
+    server = /home/globalstack/run.sh
+    user = globalstack
+    port = 48763
+    flags = REUSE
+    bind = 0.0.0.0
+    wait = no
+}

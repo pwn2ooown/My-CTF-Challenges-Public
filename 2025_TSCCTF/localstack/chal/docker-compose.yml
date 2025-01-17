@@ -1,0 +1,10 @@
+version: '3'
+
+services:
+  localstack:
+    build: ./
+    volumes:
+      - ./share:/home/localstack:ro
+      - ./xinetd:/etc/xinetd.d/localstack:ro
+    ports:
+      - "11100:48763"
