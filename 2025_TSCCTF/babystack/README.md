@@ -8,5 +8,5 @@ By [Curious](https://github.com/Curious-Lucifer)
 ## Solution
 
 1. Overwrite `strlen` got entry of libc.got to control rip.
-2. Control rip to `add rsp, 0x58` and stack will be at you first input.
-3. ROP to one_gadget.
+2. Control rip to `add rsp, 0x58` and rsp will be at you first input.
+3. ROP-like and return to `one_gadget`.

