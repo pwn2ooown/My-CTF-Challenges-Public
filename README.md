@@ -62,6 +62,13 @@ CTF challenges I created and their writeups (most of them).
 | globalstack  | Pwn | free hook, oob |
 | babyrust  | Pwn | rust pwn, ROP |
 
+### AIS3 Pre-exam & MyFirstCTF
+
+| Challenge                                                    | Category  | Keywords               |
+| ------------------------------------------------------------ | --------- | ---------------------- |
+| Welcome to the World of Ave Mujica | Pwn       |    return to win          |
+| AIS3 Tiny Web Server  | Misc / Rev / Pwn  | Real world, 1 day, web server |
+
 ## License
 
 The content of this repository is licensed under the [CC-BY-4.0](https://choosealicense.com/licenses/cc-by-sa-4.0/).
