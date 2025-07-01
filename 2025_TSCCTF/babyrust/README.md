@@ -3,7 +3,7 @@
 - Pwn
 - Medium
 
-This time, R stands for [Rust](https://en.wikipedia.org/wiki/Rust_(programming_language)) in [ROP](https://en.wikipedia.org/wiki/Return-oriented_programming).
+This time, R stands for [Rust](<https://en.wikipedia.org/wiki/Rust_(programming_language)>) in [ROP](https://en.wikipedia.org/wiki/Return-oriented_programming).
 
 Author: pwn2ooown
 

@@ -18,4 +18,4 @@ Return to win 可是有開 PIE 保護。賽中有提示可以把 index 印出來
 
 比較萬用的古早味(?)方法是 leak libc 裡面的某個 stack address 之後再去改 return address 最後 ROP。
 
-不過我給出的另一種 code execution 方法是修改 libc 中的 GOT 表改成 `system` (沒錯，libc GOT 居然是 partial RELRO 的)，剩下細節請讀者自行開 gdb 動手了XD。
+不過我給出的另一種 code execution 方法是修改 libc 中的 GOT 表改成 `system` (沒錯，libc GOT 居然是 partial RELRO 的)，剩下細節請讀者自行開 gdb 動手了 XD。
