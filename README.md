@@ -30,7 +30,6 @@ CTF challenges I created and their writeups (most of them).
 | ------------------------------------------------- | -------- | ------------------------------------------------------------- |
 | Baby Python Assembly                              | Rev      | Python Assembly                                               |
 | babyheap                                          | Pwn      | Glibc 2.23 fastbin double free, malloc hook trick, one gadget |
-| babyheap                                          | Pwn      | Glibc 2.23 fastbin double free, malloc hook trick, one gadget |
 | babyRSA                                           | Crypto   | RSA                                                           |
 | E                                                 | Crypto   | RSA, Common Modulus Attack                                    |
 | Every pwner's first challenge                     | Pwn      | Return to win, ret2win, ret2text, return to text              |
@@ -56,18 +55,18 @@ CTF challenges I created and their writeups (most of them).
 
 ### TSCCTF
 
-| Challenge   | Category | Keywords                                       |
-| ----------- | -------- | ---------------------------------------------- |
-| localstack  | Pwn      | oob, ret2win, ret2text, bypass all protections |
-| globalstack | Pwn      | free hook, oob                                 |
-| babyrust    | Pwn      | rust pwn, ROP                                  |
+| Challenge   | Category | Keywords                                                     |
+| ----------- | -------- | ------------------------------------------------------------ |
+| localstack  | Pwn      | oob, ret2win, ret2text, bypass all protections, out of bound |
+| globalstack | Pwn      | free hook, out of bound, oob                                 |
+| babyrust    | Pwn      | rust pwn, ROP                                                |
 
 ### AIS3 Pre-exam & MyFirstCTF
 
-| Challenge                          | Category         | Keywords                      |
-| ---------------------------------- | ---------------- | ----------------------------- |
-| Welcome to the World of Ave Mujica | Pwn              | return to win                 |
-| AIS3 Tiny Web Server               | Misc / Rev / Pwn | Real world, 1 day, web server |
+| Challenge                          | Category         | Keywords                                                                       |
+| ---------------------------------- | ---------------- | ------------------------------------------------------------------------------ |
+| Welcome to the World of Ave Mujica | Pwn              | return to win                                                                  |
+| AIS3 Tiny Web Server               | Misc / Rev / Pwn | Real world, 1 day, web server in C, ret2libc, backdoor(?), xor encryption, LFI |
 
 ## License
 
