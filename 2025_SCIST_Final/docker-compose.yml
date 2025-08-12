@@ -1,0 +1,20 @@
+version: '3'
+services:
+  final1:
+    build: easiest_pwn
+    ports:
+      - 31606:5000
+    privileged: true
+    restart: always
+  final2:
+    build: ret2sc
+    ports:
+      - 31607:5000
+    privileged: true
+    restart: always
+  final3:
+    build: zero-to-hero-2
+    ports:
+      - 31608:5000
+    privileged: true
+    restart: always

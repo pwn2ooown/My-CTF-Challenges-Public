@@ -43,7 +43,7 @@ CTF challenges I created and their writeups (most of them).
 
 | Challenge                    | Category | Keywords                                                                                                                            |
 | ---------------------------- | -------- | ----------------------------------------------------------------------------------------------------------------------------------- |
-| Celerity Glide Google Chrome | Pwn      | Turboshaft type confusion, v8 pwn, browser exploitation, v8 sandox escape [330404819](https://issues.chromium.org/issues/330404819) |
+| Celerity Glide Google Chrome | Pwn      | Turboshaft type confusion, v8 pwn, browser exploitation, v8 sandbox escape [330404819](https://issues.chromium.org/issues/330404819) |
 
 ### CGGC Final
 
@@ -67,6 +67,14 @@ CTF challenges I created and their writeups (most of them).
 | ---------------------------------- | ---------------- | ------------------------------------------------------------------------------ |
 | Welcome to the World of Ave Mujica | Pwn              | return to win                                                                  |
 | AIS3 Tiny Web Server               | Misc / Rev / Pwn | Real world, 1 day, web server in C, ret2libc, backdoor(?), xor encryption, LFI |
+
+### SCIST Final CTF
+
+| Challenge      | Category | Keywords                       |
+| -------------- | -------- | ------------------------------ |
+| easiest_pwn    | Pwn      | checkin, ret2win               |
+| ret2sc         | Pwn      | ret2shellcode                  |
+| zero-to-hero-2 | Pwn      | UAF, Use After Free, Free Hook |
 
 ## License
 
